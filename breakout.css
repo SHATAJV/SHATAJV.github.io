@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f3f3f3;
+}
+
+canvas {
+    display: block;
+    background-color: #284959;
+    margin: 0 auto;
+}
+#ball {
+    width: 20px;
+    height: 20px;
+    background-color: #0095dd;
+    border-radius: 50%;
+}
+
+#paddle {
+    width: 75px;
+    height: 10px;
+    background-color: #0095dd;
+}
+.brick {
+    background-color: #0095dd;
+    width: 75px;
+    height: 20px;
+    position: absolute;
+}
+#score {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #0095dd;
+}
